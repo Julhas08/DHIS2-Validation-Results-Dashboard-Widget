@@ -1,0 +1,22 @@
+{
+    "name": "Validation Results Widget",
+    "description": "Every week we run validation analysis on the tracker data, which persist and send notification (validation rule instruction) to user’s dashboards. Users can then interact with each notification (thumbs up/down or comment), which is sent to a data store",
+    "version": "1.0",
+    "appType": "DASHBOARD_WIDGET",
+    "launch_path": "./index.html",
+    "default_locale": "en",
+    "activities": {
+        "dhis": {
+            "href": "*"
+        }
+    },
+    "developer": {
+        "name": "Julhas Sujan",
+        "email": "julhaspustcse@gmail.com",
+        "url": "http://dhis2trainingland.com/",
+        "company": "UiO"
+    },
+    "icons": {
+        "48": "./messages.png"
+    }
+}
